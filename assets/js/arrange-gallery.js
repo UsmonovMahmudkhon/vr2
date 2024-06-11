@@ -11,7 +11,7 @@ AFRAME.registerComponent('arrange-gallery', {
         let leftSide = artArray.splice(0, half)
         let rightSide = artArray.splice(-half)
         let xSpacing = 5
-        let wallHeight = 4
+        let wallHeight = 7
         
         let roomLenghth = xSpacing * leftSide.length
         let startPosition = (roomLenghth / 2)
